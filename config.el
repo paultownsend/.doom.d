@@ -51,6 +51,9 @@
 ;;
 ;;; Modules
 
+;;; :ui deft
+(setq deft-directory org-directory)
+
 ;;; :ui doom-dashboard
 (setq fancy-splash-image (concat doom-private-dir "splash.png"))
 
