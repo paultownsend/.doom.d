@@ -41,14 +41,6 @@
 
 
 ;;
-;;; Keybinds
-
-;; Use right-alt/option to get at `€' and `#' on macOS
-(when IS-MAC
-  (setq mac-right-option-modifier 'none))
-
-
-;;
 ;;; Modules
 
 ;;; :ui deft
