@@ -31,6 +31,13 @@
   (setq doom-font (font-spec :family "SF Mono" :size 12)
         ns-use-thin-smoothing t))
 
+;;; Theme
+
+(setq doom-theme 'modus-vivendi
+      modus-themes-mode-line 'borderless
+      modus-themes-syntax 'faint)
+
+
 ;;
 ;;; Editor
 
